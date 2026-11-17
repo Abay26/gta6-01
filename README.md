@@ -1,7 +1,8 @@
 # Solmar Bay — an open-world crime story
 
-[![make.fun](https://make.fun/badge.svg)](https://make.fun/c/gta6-01)
-[![bounty: gta6-01](https://make.fun/c/gta6-01/badge.svg)](https://make.fun/c/gta6-01?ref=qw56w9dq)
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/Abay26/gta6-01/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/Abay26/gta6-01/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
 
 **Solmar Bay** is an open-world crime game for the [make.fun](https://make.fun/c/gta6-01?ref=qw56w9dq) **gta6-01** bounty ("Make GTA 6"). You are Rico Vega, a driver fresh back in Solmar Bay, working ten jobs for fixer Mara Solis — from moving her sedan across town to cracking the Coral Crown Casino and escaping by speedboat while the whole Solmar PD hunts you.
 
