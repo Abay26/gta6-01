@@ -1,8 +1,9 @@
-// A tiny seeded random source (mulberry32) so a seed always rebuilds the same city
-// and the same traffic, which is what makes the screenshot scenes reproducible.
+// A tiny seeded random source (mulberry32) so a seed always rebuilds the
+// same city, the same traffic and the same weather cycle, which is what
+// makes the screenshot scenes reproducible.
 export function createRandom(seed) {
   let a = seed >>> 0;
-  return {
+  const rng = {
     next() {
       a |= 0; a = (a + 0x6d2b79f5) | 0;
       let t = Math.imul(a ^ (a >>> 15), 1 | a);
@@ -13,5 +14,14 @@ export function createRandom(seed) {
     int(min, max) { return Math.floor(this.range(min, max + 1)); },
     pick(list) { return list[Math.floor(this.next() * list.length)]; },
     chance(p) { return this.next() < p; },
+    shuffle(list) {
+      const out = list.slice();
+      for (let i = out.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(this.next() * (i + 1));
+        [out[i], out[j]] = [out[j], out[i]];
+      }
+      return out;
+    },
   };
+  return rng;
 }
