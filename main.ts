@@ -1,4 +1,4 @@
-// Solmar Bay — the program that hands the game in (Node 22, standard library
+// Solmar Bay v2 — the program that hands the game in (Node 22, standard library
 // only). The game itself is plain static files under game/: an index.html and
 // its ES modules, no library and no network request, playable offline in a
 // desktop browser. This file copies game/ and screenshots/ from beside itself
@@ -75,4 +75,4 @@ writeFileSync(
     game_path_max_bytes: 1000,
   }),
 );
-console.log(`Solmar Bay handed in: ${gameStats.files} game files, ${gameStats.bytes} bytes.`);
+console.log(`Solmar Bay v2 handed in: ${gameStats.files} game files, ${gameStats.bytes} bytes.`);
